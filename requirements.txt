@@ -1,3 +1,4 @@
-python-telegram-bot==20.7
-selenium==4.25.0
-pillow==10.2.0
+selenium
+chromedriver-autoinstaller
+pillow
+python-telegram-bot==20.3
