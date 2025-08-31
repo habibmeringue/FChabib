@@ -19,7 +19,7 @@ from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # ===== إعدادات =====
 CHROMEDRIVER_PATH = r"/app/chromedriver"  # مسار chromedriver على سيرفر
-TELEGRAM_TOKEN = "8243189277:AAFQZXaxGBo9FHviotKvnToXb0kiNOyfiRs"  
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")  
 HUMAN_DELAY_RANGE = (0.2, 0.6)
 FIELD_DELAY_RANGE = (0.1, 0.3)
 STITCH_STEP_VIEWPORT = 0.9
@@ -197,3 +197,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
