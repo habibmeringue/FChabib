@@ -1,5 +1,3 @@
-selenium==4.12.0
-Pillow==10.1.0
-python-telegram-bot==20.5
-urllib3==2.0.5
-certifi==2024.12.14
+python-telegram-bot==20.7
+selenium==4.25.0
+pillow==10.2.0
